@@ -7662,8 +7662,8 @@ h1, h2, h3, h4, h5,
         font-size: 14px;
         color: #c0c0c3; }
     .ftco-section-featured .featured-img .user .user-img {
-      width: 190px;
-      height: 100px;
+      width: 50px;
+      height: 50px;
       -webkit-border-radius: 50%;
       -moz-border-radius: 50%;
       -ms-border-radius: 50%;
@@ -8287,8 +8287,8 @@ textarea.form-control {
   display: block;
   position: relative; }
   .testimony-wrap .user-img {
-    width: 100px;
-    height: 100px;
+    width: 30px;
+    height: 30px;
     border-radius: 50%;
     margin: 0 auto;
     position: relative; }
