@@ -8265,7 +8265,7 @@ textarea.form-control {
 .work-img,
 .blog-img,
 .user-img {
-  background-size: 200px;
+  background-size: 180px;
   background-repeat: no-repeat;
   background-position: center center; }
 
@@ -8287,8 +8287,8 @@ textarea.form-control {
   display: block;
   position: relative; }
   .testimony-wrap .user-img {
-    width: 200px;
-    height: 200px;
+    width: 180px;
+    height: 180px;
     border-radius: 50%;
     margin: 0 auto;
     position: relative; }
