@@ -1,6 +1,6 @@
 <?php session_start();
 if(isset($_POST['submit'])) {
-$youremail = 'yourname@domain.com';
+$youremail = 'nycitytreats@gmail.com';
 $fromsubject = 'Contact Form';
 $name = $_POST['name'];
 $mail = $_POST['email'];
@@ -26,4 +26,4 @@ echo "Thank you fo your feedback. I will contact you shortly if needed.<br/>Go t
  } else {
 echo "You must write a message. </br> Please go to <a href='/index.html'>Home Page</a>";
 }
-?> 
+?>
