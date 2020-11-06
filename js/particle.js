@@ -12,13 +12,18 @@ particlesJS("particles-js", {
       "value": "#ffffff"
     },
     "shape": {
-      "type": "star",
+      "type": "image",
       "stroke": {
         "width": 20,
         "color": "#000000"
       },
       "polygon": {
         "nb_sides": 5
+      },
+      "image": {
+        "src": "images/cookieicon.png",
+        "width": 100,
+        "height": 100
       }
     },
     "opacity": {
