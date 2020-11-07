@@ -8292,6 +8292,11 @@ textarea.form-control {
     border-radius: 50%;
     margin: 0 auto;
     position: relative; }
+    .testimony-wrap .small-img {
+      width: 30%;
+      border-radius: 50%;
+      margin: 0 auto;
+      position: relative; }
     .testimony-wrap .user-img .quote {
       position: absolute;
       bottom: -10px;
