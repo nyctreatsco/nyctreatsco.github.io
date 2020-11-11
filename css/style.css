@@ -7833,7 +7833,7 @@ h1, h2, h3, h4, h5,
 .ftco-section-parallax {
   position: relative; }
   .ftco-section-parallax .parallax-img {
-    background-size: cover;
+    background-size: contain;
     background-repeat: no-repeat;
     background-position: center center;
     position: relative;
@@ -7855,7 +7855,7 @@ h1, h2, h3, h4, h5,
 
 .block-3 .text, .block-3 .image {
   width: 100%;
-  padding: 10% 7%;
+  padding: 5% 7%;
   display: block; }
   @media (min-width: 768px) {
     .block-3 .text, .block-3 .image {
