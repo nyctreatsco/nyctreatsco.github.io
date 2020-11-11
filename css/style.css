@@ -7384,7 +7384,8 @@ h1, h2, h3, h4, h5,
     -webkit-box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.1);
     box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.1); }
     .ftco-navbar-light.scrolled .nav-item.active > a {
-      color: #ee76ad !important; }
+      color: #fff !important; }
+      /*the color was #ee76ad*/
     .ftco-navbar-light.scrolled .nav-item.cta > a {
       color: #fff !important;
       background: #ee76ad;
