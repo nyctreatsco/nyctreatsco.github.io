@@ -7861,7 +7861,7 @@ h1, h2, h3, h4, h5,
   @media (min-width: 768px) {
     .block-3 .text, .block-3 .image {
       width: 100%;
-      padding: 10% 7%; } }
+      padding: 5% 7%; } }
 
 .block-3 .text .subheading {
   font-size: 13px;
