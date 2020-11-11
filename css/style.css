@@ -6171,7 +6171,7 @@ button.bg-dark:focus {
 
 .mb-4,
 .my-4 {
-  margin-bottom: 1.5rem !important; }
+  margin-bottom: .1rem !important; }
 
 .ml-4,
 .mx-4 {
@@ -8244,8 +8244,8 @@ textarea.form-control {
   color: rgba(0, 0, 0, 0.2); }
 
 .heading-section h2 {
-  font-size: 38px;
-  font-weight: 700; }
+  font-size: 40px;
+  font-weight: 900; }
   @media (max-width: 767.98px) {
     .heading-section h2 {
       font-size: 28px; } }
