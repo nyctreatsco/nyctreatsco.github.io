@@ -7447,6 +7447,10 @@ h1, h2, h3, h4, h5,
   font-size: 20px;
   text-transform: uppercase; }
 
+  .bg-banner {
+    background-image: url("/images/nycskyline.jpg");
+}
+
 .hero-wrap {
   width: 100%;
   height: 100%;
