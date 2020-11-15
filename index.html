@@ -214,7 +214,18 @@
               <!--<h4 class="subheading">Sugar Cookie Base</h4>-->
               <h2 class="heading"><a href="portfolio.html">Frosted Animal Cookie</a></h2>
               <p>Sugar cookie blended with circus animal cookies, stuffed with white chocolate chips and circus animal cookies. Topped with a circus animal cookie.</p>
-              <div id='product-component-1605465345851'></div>
+
+              <!--<p><a href="portfolio.html" class="btn btn-primary px-4">Add to Cart</a></p>-->
+            </div>
+            <div class="item text-center">
+              <div class="testimony-wrap p-4 pb-5">
+                <div class="text">
+                  <p class="name text-center">What's Inside</p>
+                </div>
+                  <img class="small-img mb-2" src="images/animalcookies.png" alt=""/>
+                  <img class="small-img mb-2" src="images/whitechocochips.jpg" alt=""/>
+              </div>
+              <div id='product-component-1605466806347'></div>
 <script type="text/javascript">
 /*<![CDATA[*/
 (function () {
@@ -243,19 +254,66 @@
     ShopifyBuy.UI.onReady(client).then(function (ui) {
       ui.createComponent('product', {
         id: '6075606368445',
-        node: document.getElementById('product-component-1605465345851'),
+        node: document.getElementById('product-component-1605466806347'),
         moneyFormat: '%24%7B%7Bamount%7D%7D',
         options: {
   "product": {
     "styles": {
       "product": {
         "@media (min-width: 601px)": {
-          "max-width": "calc(25% - 20px)",
-          "margin-left": "20px",
+          "max-width": "100%",
+          "margin-left": "0",
           "margin-bottom": "50px"
-        }
+        },
+        "text-align": "left"
+      },
+      "title": {
+        "font-size": "26px"
+      },
+      "button": {
+        "font-size": "16px",
+        "padding-top": "16px",
+        "padding-bottom": "16px",
+        "color": "#ee76ad",
+        ":hover": {
+          "color": "#ee76ad",
+          "background-color": "#e3d0d9"
+        },
+        "background-color": "#fce7f1",
+        ":focus": {
+          "background-color": "#e3d0d9"
+        },
+        "border-radius": "40px",
+        "padding-left": "37px",
+        "padding-right": "37px"
+      },
+      "quantityInput": {
+        "font-size": "16px",
+        "padding-top": "16px",
+        "padding-bottom": "16px"
+      },
+      "price": {
+        "font-size": "18px",
+        "color": "#000000"
+      },
+      "compareAt": {
+        "font-size": "15.299999999999999px",
+        "color": "#000000"
+      },
+      "unitPrice": {
+        "font-size": "15.299999999999999px",
+        "color": "#000000"
       }
     },
+    "layout": "horizontal",
+    "contents": {
+      "img": false,
+      "imgWithCarousel": true,
+      "button": false,
+      "buttonWithQuantity": true,
+      "description": true
+    },
+    "width": "100%",
     "text": {
       "button": "Add to cart"
     }
@@ -283,6 +341,28 @@
           "margin-left": "0px",
           "margin-bottom": "0px"
         }
+      },
+      "button": {
+        "font-size": "16px",
+        "padding-top": "16px",
+        "padding-bottom": "16px",
+        "color": "#ee76ad",
+        ":hover": {
+          "color": "#ee76ad",
+          "background-color": "#e3d0d9"
+        },
+        "background-color": "#fce7f1",
+        ":focus": {
+          "background-color": "#e3d0d9"
+        },
+        "border-radius": "40px",
+        "padding-left": "37px",
+        "padding-right": "37px"
+      },
+      "quantityInput": {
+        "font-size": "16px",
+        "padding-top": "16px",
+        "padding-bottom": "16px"
       }
     },
     "text": {
@@ -290,11 +370,130 @@
     }
   },
   "cart": {
+    "styles": {
+      "button": {
+        "font-size": "16px",
+        "padding-top": "16px",
+        "padding-bottom": "16px",
+        "color": "#ee76ad",
+        ":hover": {
+          "color": "#ee76ad",
+          "background-color": "#e3d0d9"
+        },
+        "background-color": "#fce7f1",
+        ":focus": {
+          "background-color": "#e3d0d9"
+        },
+        "border-radius": "40px"
+      },
+      "title": {
+        "color": "#e6a78e"
+      },
+      "header": {
+        "color": "#e6a78e"
+      },
+      "lineItems": {
+        "color": "#e6a78e"
+      },
+      "subtotalText": {
+        "color": "#e6a78e"
+      },
+      "subtotal": {
+        "color": "#e6a78e"
+      },
+      "notice": {
+        "color": "#e6a78e"
+      },
+      "currency": {
+        "color": "#e6a78e"
+      },
+      "close": {
+        "color": "#e6a78e",
+        ":hover": {
+          "color": "#e6a78e"
+        }
+      },
+      "empty": {
+        "color": "#e6a78e"
+      },
+      "noteDescription": {
+        "color": "#e6a78e"
+      },
+      "discountText": {
+        "color": "#e6a78e"
+      },
+      "discountIcon": {
+        "fill": "#e6a78e"
+      },
+      "discountAmount": {
+        "color": "#e6a78e"
+      }
+    },
     "text": {
       "total": "Subtotal",
       "button": "Checkout"
     },
     "popup": false
+  },
+  "toggle": {
+    "styles": {
+      "toggle": {
+        "background-color": "#fce7f1",
+        ":hover": {
+          "background-color": "#e3d0d9"
+        },
+        ":focus": {
+          "background-color": "#e3d0d9"
+        }
+      },
+      "count": {
+        "font-size": "16px",
+        "color": "#ee76ad",
+        ":hover": {
+          "color": "#ee76ad"
+        }
+      },
+      "iconPath": {
+        "fill": "#ee76ad"
+      }
+    }
+  },
+  "lineItem": {
+    "styles": {
+      "variantTitle": {
+        "color": "#e6a78e"
+      },
+      "title": {
+        "color": "#e6a78e"
+      },
+      "price": {
+        "color": "#e6a78e"
+      },
+      "fullPrice": {
+        "color": "#e6a78e"
+      },
+      "discount": {
+        "color": "#e6a78e"
+      },
+      "discountIcon": {
+        "fill": "#e6a78e"
+      },
+      "quantity": {
+        "color": "#e6a78e"
+      },
+      "quantityIncrement": {
+        "color": "#e6a78e",
+        "border-color": "#e6a78e"
+      },
+      "quantityDecrement": {
+        "color": "#e6a78e",
+        "border-color": "#e6a78e"
+      },
+      "quantityInput": {
+        "color": "#e6a78e",
+        "border-color": "#e6a78e"
+      }
+    }
   }
 },
       });
@@ -303,16 +502,6 @@
 })();
 /*]]>*/
 </script>
-              <p><a href="portfolio.html" class="btn btn-primary px-4">Add to Cart</a></p>
-            </div>
-            <div class="item text-center">
-              <div class="testimony-wrap p-4 pb-5">
-                <div class="text">
-                  <p class="name text-center">What's Inside</p>
-                </div>
-                  <img class="small-img mb-2" src="images/animalcookies.png" alt=""/>
-                  <img class="small-img mb-2" src="images/whitechocochips.jpg" alt=""/>
-              </div>
             </div>
           </div>
           <div class="block-3 d-md-flex ftco-animate" data-scrollax-parent="true">
