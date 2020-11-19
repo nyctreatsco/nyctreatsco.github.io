@@ -8286,6 +8286,7 @@ textarea.form-control {
   box-shadow: 0px 4px 18px -12px rgba(0, 0, 0, 0.75);
   background: #fff;
   display: block;
+  width: 350px;
   position: relative; }
   .testimony-wrap .user-img {
     width: 180px;
