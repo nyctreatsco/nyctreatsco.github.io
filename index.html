@@ -2453,10 +2453,80 @@
 <script type="text/javascript">
   function testBoy(){
     ShopifyBuy.UI.onReady(client).then(function (ui) {
+      ui.createComponent('cart', {
+        node: document.getElementById("js_cart"),
+        options: {
+          "cart": {
+            "styles": {
+              "button": {
+                "font-size": "18px",
+                "padding-top": "17px",
+                "padding-bottom": "17px",
+                "color": "#ee76ad",
+                ":hover": {
+                  "color": "#ee76ad",
+                  "background-color": "#e3d0d9"
+                },
+                "background-color": "#fce7f1",
+                ":focus": {
+                  "background-color": "#e3d0d9"
+                },
+                "border-radius": "40px"
+              },
+              "title": {
+                "color": "#e6a78e"
+              },
+              "header": {
+                "color": "#e6a78e"
+              },
+              "lineItems": {
+                "color": "#e6a78e"
+              },
+              "subtotalText": {
+                "color": "#e6a78e"
+              },
+              "subtotal": {
+                "color": "#e6a78e"
+              },
+              "notice": {
+                "color": "#e6a78e"
+              },
+              "currency": {
+                "color": "#e6a78e"
+              },
+              "close": {
+                "color": "#e6a78e",
+                ":hover": {
+                  "color": "#e6a78e"
+                }
+              },
+              "empty": {
+                "color": "#e6a78e"
+              },
+              "noteDescription": {
+                "color": "#e6a78e"
+              },
+              "discountText": {
+                "color": "#e6a78e"
+              },
+              "discountIcon": {
+                "fill": "#e6a78e"
+              },
+              "discountAmount": {
+                "color": "#e6a78e"
+              }
+            },
+            "text": {
+              "total": "Subtotal",
+              "button": "Checkout"
+            }
+          },
+        }
+      });
       ui.openCart();
   }
 </script>
-<button onClick="testBoy()" class="btn btn-primary py-3 px-5">THIS ALREADY WORKS I KNOW IT</button>
+<button onClick="testBoy()" class="btn btn-primary py-3 px-5">THIS ALREADY WOKS I KNOW IT</button>
           </div>
         </div>
         <div class="row ftco-animate">
