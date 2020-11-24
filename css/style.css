@@ -8372,7 +8372,7 @@ textarea.form-control {
 
 .block-20 {
   overflow: hidden;
-  background-size: cover;
+  background-size: contain;
   background-repeat: no-repeat;
   background-position: center center;
   height: 250px;
