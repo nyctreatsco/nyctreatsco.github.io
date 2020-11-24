@@ -2443,7 +2443,7 @@
           },
         }
       });
-      ui.openCart()
+      //ui.openCart()
     });
   }
 
@@ -2452,10 +2452,11 @@
 </script>
 <script type="text/javascript">
   function testBoy(){
-    alert("Hi najlepsa");
+    ShopifyBuy.UI.onReady(client).then(function (ui) {
+      ui.openCart();
   }
 </script>
-<button onClick="testBoy()" class="btn btn-primary py-3 px-5">EM THE BEST</button>
+<button onClick="testBoy()" class="btn btn-primary py-3 px-5">THIS ALREADY WORKS I KNOW IT</button>
           </div>
         </div>
         <div class="row ftco-animate">
