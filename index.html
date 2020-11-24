@@ -2452,12 +2452,16 @@
 </script>
 <script type="text/javascript">
   function testBoy(){
+    var client = ShopifyBuy.buildClient({
+      domain: 'nyctreats-co.myshopify.com',
+      storefrontAccessToken: 'b4988d95e4a3644e86b1790aa1c34056',
+    });
     ShopifyBuy.UI.onReady(client).then(function (ui) {
       ui.openCart();
     });
   }
 </script>
-<button onClick="testBoy()" class="btn btn-primary py-3 px-5">Ty KNOWs IT</button>
+<button onClick="testBoy()" class="btn btn-primary py-3 px-5">Ty KNOWs NISTA</button>
           </div>
         </div>
         <div class="row ftco-animate">
