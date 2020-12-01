@@ -80,6 +80,16 @@
     function PopUp(hideOrshow) {
         if (hideOrshow == 'hide') document.getElementById('ac-wrapper').style.display = "none";
         else document.getElementById('ac-wrapper').removeAttribute('style');
+        var op = 1;  // initial opacity
+var timer = setInterval(function () {
+    if (op <= 0.1){
+        clearInterval(timer);
+        hideOrshow.style.display = 'none';
+    }
+    hideOrshow.style.opacity = op;
+    hideOrshow.style.filter = 'alpha(opacity=' + op * 100 + ")";
+    op -= op * 0.1;
+}, 50);
     }
     window.onload = function () {
         setTimeout(function () {
