@@ -69,6 +69,12 @@
       height: auto;
     }
 
+    #text-gradient {
+      background: -webkit-linear-gradient(#eee, #333);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+  }
+
     @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
 
     @import url('https://fonts.googleapis.com/css2?family=Nerko+One&family=Permanent+Marker&display=swap');
@@ -101,7 +107,7 @@
       <div class="container">
         <div class="row no-gutters slider-text align-items-center justify-content-center" data-scrollax-parent="true">
           <div class="col-md-6 ftco-animate text-center" data-scrollax=" properties: { translateY: '70%' }">
-            <h1 class="mb-4" data-scrollax="properties: { translateY: '30%', opacity: 1.6 }"><strong>NYC</strong> Treats&nbsp;<span class="ftco-animate"><a style="color: #ee7fac; text-shadow: 0 0 3px #FF0000, 0 0 5px #0000FF;" href="https://www.instagram.com/nyctreats/" target="_blank"><span class="icon-instagram"></span></a></span></h1>
+            <h1 class="mb-4" data-scrollax="properties: { translateY: '30%', opacity: 1.6 }"><strong>NYC</strong> Treats&nbsp;<span class="ftco-animate"><a id="text-gradient" style="text-shadow: 0 0 3px #FF0000, 0 0 5px #0000FF;" href="https://www.instagram.com/nyctreats/" target="_blank"><span class="icon-instagram"></span></a></span></h1>
             <p><a class="btn btn-primary mt-3 py-3 px-5 js-scroll-trigger" href="#menu-section">Shop Now</a></p>
           </div>
         </div>
