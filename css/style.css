@@ -7462,12 +7462,12 @@ h1, h2, h3, h4, h5,
     content: '';
     opacity: .97;
     background: #ee76ad;
-    background: -moz-linear-gradient(45deg, #5a7c9e 0%, #5fb3ff 100%);
-    background: -webkit-gradient(left bottom, right top, color-stop(0%, #5a7c9e), color-stop(100%, #5fb3ff));
-    background: -webkit-linear-gradient(45deg, #5a7c9e 0%, #5fb3ff 100%);
-    background: -o-linear-gradient(45deg, #5a7c9e 0%, #5fb3ff 100%);
-    background: -ms-linear-gradient(45deg, #5a7c9e 0%, #5fb3ff 100%);
-    background: linear-gradient(45deg, #5a7c9e 0%, #5fb3ff 100%);
+    background: -moz-linear-gradient(45deg, #c4e0fa 0%, #fff 100%);
+    background: -webkit-gradient(left bottom, right top, color-stop(0%, #c4e0fa), color-stop(100%, #fff));
+    background: -webkit-linear-gradient(45deg, #c4e0fa 0%, #fff 100%);
+    background: -o-linear-gradient(45deg, #c4e0fa 0%, #fff 100%);
+    background: -ms-linear-gradient(45deg, #c4e0fa 0%, #fff 100%);
+    background: linear-gradient(45deg, #c4e0fa 0%, #fff 100%);
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#448ef6', endColorstr='#af05a9', GradientType=1 ); }
 
 #particles-js {
