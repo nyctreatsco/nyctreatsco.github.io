@@ -7388,7 +7388,7 @@ h1, h2, h3, h4, h5,
       color: #fff !important; }
       /*the color was #5a7c9e*/
     .ftco-navbar-light.scrolled .nav-item.cta > a {
-      color: #fff !important;
+      /*color: #fff !important;*/
       background: #5fb3ff;
       border: none !important;
       padding-top: 0.5rem !important;
