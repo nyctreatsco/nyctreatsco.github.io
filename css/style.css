@@ -7350,7 +7350,7 @@ h1, h2, h3, h4, h5,
         .ftco-navbar-light .navbar-nav > .nav-item.ftco-seperator:before {
           display: none; } }
   .ftco-navbar-light .navbar-nav > .nav-item.cta > a {
-    color: #fff;
+    background-color: #fff;
     border: 2px solid white;
     padding-top: .5rem;
     padding-bottom: .5rem;
