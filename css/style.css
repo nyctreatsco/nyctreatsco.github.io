@@ -7351,7 +7351,7 @@ h1, h2, h3, h4, h5,
           display: none; } }
   .ftco-navbar-light .navbar-nav > .nav-item.cta > a {
     background-color: #fff;
-    border: 2px solid white;
+    border: 1px solid #5a7c9e;
     padding-top: .5rem;
     padding-bottom: .5rem;
     padding-left: 20px;
