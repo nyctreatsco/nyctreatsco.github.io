@@ -69,6 +69,15 @@
         -webkit-box-shadow: #64686e 0px 0px 3px 3px;
     }
 
+    #myVideo {
+      position: fixed;
+      opacity: 0.3;
+      right: 0;
+      bottom: 0;
+      min-width: 100%;
+      min-height: 100%;
+    }
+
     .resize {
       width: 35%;
       height: auto;
@@ -106,6 +115,9 @@
 
     <div class="hero-wrap js-fullheight">
       <div class="overlay"></div>
+      <video autoplay muted loop id="myVideo">
+        <source src="/images/video-overlay.mp4" type="video/mp4">
+      </video>
       <div class="container">
         <div class="row no-gutters slider-text align-items-center justify-content-center" data-scrollax-parent="true">
           <div class="col-md-6 ftco-animate text-center" data-scrollax=" properties: { translateY: '70%' }">
