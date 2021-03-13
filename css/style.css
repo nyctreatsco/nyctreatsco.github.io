@@ -8708,6 +8708,9 @@ textarea.form-control {
   .contact-section .contact-info p a {
     color: #5a7c9e; }
 
+  .menu-section {
+    margin-top: -250px; }
+
 .block-9 .form-control {
   outline: none !important;
   -webkit-box-shadow: none !important;
