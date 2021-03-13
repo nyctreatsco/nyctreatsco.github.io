@@ -45,29 +45,38 @@
     <style>
 
     #ac-wrapper {
-        position: fixed;
-        top: 0;
-        left: 0;
-        width: 100%;
-        height: 100%;
-        background: rgba(255, 255, 255, .6);
-        z-index: 1001;
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background: rgba(255, 255, 255, .6);
+      z-index: 1001;
     }
 
     #popup {
-        width: 50%;
-        padding-right: 15px;
-        padding-left: 15px;
-        margin-right: auto;
-        margin-left: auto;
-        background: #FFFFFF;
-        border: 5px solid #000;
-        border-radius: 25px;
-        -moz-border-radius: 25px;
-        -webkit-border-radius: 25px;
-        box-shadow: #64686e 0px 0px 3px 3px;
-        -moz-box-shadow: #64686e 0px 0px 3px 3px;
-        -webkit-box-shadow: #64686e 0px 0px 3px 3px;
+      width: 50%;
+      padding-right: 15px;
+      padding-left: 15px;
+      margin-right: auto;
+      margin-left: auto;
+      background: #FFFFFF;
+      border: 5px solid #000;
+      border-radius: 25px;
+      -moz-border-radius: 25px;
+      -webkit-border-radius: 25px;
+      box-shadow: #64686e 0px 0px 3px 3px;
+      -moz-box-shadow: #64686e 0px 0px 3px 3px;
+      -webkit-box-shadow: #64686e 0px 0px 3px 3px;
+    }
+
+    #myVideo {
+      position: fixed;
+      opacity: 0.3;
+      right: 0;
+      bottom: 0;
+      min-width: 100%;
+      min-height: 100%;
     }
 
     .resize {
@@ -107,6 +116,9 @@
 
     <div class="hero-wrap js-fullheight">
       <div class="overlay"></div>
+      <video autoplay muted loop id="myVideo">
+        <source src="video-3.mp4" type="video/mp4">
+      </video>
       <!--<div id="particles-js"></div>-->
       <div class="container">
         <div class="row no-gutters slider-text align-items-center justify-content-center" data-scrollax-parent="true">
