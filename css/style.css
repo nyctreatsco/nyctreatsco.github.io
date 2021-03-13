@@ -8316,7 +8316,7 @@ textarea.form-control {
       position: relative; }
     .testimony-wrap .user-img .quote {
       position: absolute;
-      bottom: -10px;
+      bottom: 2px;
       right: 0;
       width: 40px;
       height: 40px;
