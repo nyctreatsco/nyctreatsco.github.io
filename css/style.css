@@ -8707,6 +8707,8 @@ textarea.form-control {
         padding: 70px; } }
   .contact-section .contact-info p a {
     color: #5a7c9e; }
+  .contact-section a:hover {
+    color: #c4e0fa; }
 
   .menu-section {
     margin-top: -250px; }
