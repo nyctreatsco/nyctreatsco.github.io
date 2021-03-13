@@ -7891,8 +7891,8 @@ h1, h2, h3, h4, h5,
     right: 0;
     bottom: 0;
     content: '';
-    -webkit-box-shadow: 10px 10px 0 0 #c4e0fa;
-    box-shadow: 10px 10px 0 0 #c4e0fa; }
+    -webkit-box-shadow: 0px 0px 0 0 #c4e0fa;
+    box-shadow: 0px 0px 0 0 #c4e0fa; }
   .block-3 .image.image-2:after {
     position: absolute;
     top: 0;
