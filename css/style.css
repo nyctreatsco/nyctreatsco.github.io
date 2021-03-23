@@ -8130,14 +8130,14 @@ textarea.form-control {
 .ftco-footer {
   font-size: 15px;
   background: #c4e0fa;
-  padding: 10em 0 3em 0; }
+  padding: 5em 0 1em 0; }
   .ftco-footer .ftco-footer-logo {
     text-transform: uppercase;
     letter-spacing: .1em; }
   .ftco-footer .ftco-footer-widget h2 {
     font-weight: normal;
     color: #fff;
-    margin-bottom: 5px;
+    margin-bottom: 2px;
     font-size: 18px;
     font-weight: 400; }
   .ftco-footer .ftco-footer-widget ul li a span {
