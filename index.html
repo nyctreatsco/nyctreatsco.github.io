@@ -83,10 +83,20 @@
       -webkit-box-shadow: #64686e 0px 0px 3px 3px;
     }
 
-    #myVideo {
+    #blue-video {
       position: fixed;
       object-fit: contain;
       opacity: 0.2;
+      left: 0;
+      top: 0;
+      min-width: 100%;
+      min-height: 100%;
+    }
+
+    #nyc-video {
+      position: fixed;
+      object-fit: contain;
+      opacity: 0.4;
       left: 0;
       top: 0;
       min-width: 100%;
@@ -136,8 +146,8 @@
 
     <div class="hero-wrap js-fullheight">
       <div class="overlay"></div>
-      <!--<div position="relative"><video autoplay muted playsinline id="myVideo" src="/images/video-bg.mp4" type="video/mp4"></video></div>-->
-      <div position="relative"><video autoplay muted playsinline id="myVideo" src="/images/cookies.MOV" type="video/mp4"></video></div>
+      <div position="relative"><video autoplay muted playsinline id="blue-video" src="/images/video-bg.mp4" type="video/mp4"></video></div>
+      <div position="relative"><video autoplay muted playsinline id="nyc-video" src="/images/nyc-bg.mp4" type="video/mp4"></video></div>
       <div class="container">
         <div class="row no-gutters slider-text align-items-center justify-content-center" data-scrollax-parent="true">
           <div class="col-md-6 ftco-animate text-center" data-scrollax=" properties: { translateY: '70%' }">
