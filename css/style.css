@@ -8700,11 +8700,13 @@ textarea.form-control {
       background: #5a7c9e; }
 
 .contact-section {
-  margin-top: -400px; }
+  margin-top: -460px; }
   .contact-section .container {
     z-index: 2;
     padding: 30px; }
     @media (min-width: 768px) {
+      .contact-section {
+        margin-top: -460px; }
       .contact-section .container {
         padding: 70px; } }
   .contact-section .contact-info p a {
