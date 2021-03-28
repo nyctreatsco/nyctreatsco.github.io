@@ -8700,19 +8700,34 @@ textarea.form-control {
       background: #5a7c9e; }
 
 .contact-section {
-  margin-top: -460px; }
+  margin-top: -435px; }
   .contact-section .container {
     z-index: 2;
     padding: 30px; }
     @media (min-width: 768px) {
       .contact-section {
-        margin-top: -460px; }
+        margin-top: -435px; }
       .contact-section .container {
         padding: 70px; } }
   .contact-section .contact-info p a {
     color: #5a7c9e; }
   .contact-section a:hover {
     color: #c4e0fa; }
+
+  .faq-section {
+    margin-top: -460px; }
+    .faq-section .container {
+      z-index: 2;
+      padding: 30px; }
+      @media (min-width: 768px) {
+        .faq-section {
+          margin-top: -460px; }
+        .faq-section .container {
+          padding: 70px; } }
+    .faq-section .contact-info p a {
+      color: #5a7c9e; }
+    .faq-section a:hover {
+      color: #c4e0fa; }
 
   .menu-section {
     margin-top: -250px; }
