@@ -7360,7 +7360,6 @@ h1, h2, h3, h4, h5,
         .ftco-navbar-light .navbar-nav > .nav-item.ftco-seperator:before {
           display: none; } }
   .ftco-navbar-light .navbar-nav > .nav-item.cta > a {
-    background-image: url("/images/drag.png");
     background-color: #fff;
     border: 1px solid #5a7c9e;
     padding-top: .5rem;
