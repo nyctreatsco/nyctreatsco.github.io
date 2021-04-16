@@ -2648,7 +2648,7 @@ input[type="button"].btn-block {
     background-color: transparent; }
 
 .dropdown-menu.show {
-  display: flex; }
+  display: block; }
 
 .dropdown-header {
   display: block;
