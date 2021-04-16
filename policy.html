@@ -79,12 +79,6 @@
       height: auto;
     }
 
-    .responsive {
-      width: 100%;
-      max-width: 600px;
-      height: auto;
-    }
-
     @font-face {
       font-family: madetommy;
       src: url(fonts/madetommy.otf);
@@ -134,7 +128,9 @@
       <div class="overlay"></div>
       <div class="container">
         <div class="row no-gutters slider-text align-items-center justify-content-center" data-scrollax-parent="true">
-          <img class="responsive" style="margin-right: 50px" width="1200px" src="/images/faqbnr.png">
+          <div class="col-md-6 ftco-animate text-center" data-scrollax=" properties: { translateY: '70%' }">
+            <img class="responsive" style="margin-right: 50px" width="1200px" src="/images/faqbnr.png">
+          </div>
         </div>
       </div>
     </div>
