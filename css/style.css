@@ -8104,6 +8104,9 @@ textarea.form-control {
   margin-top: 0;
   margin-bottom: 30px; }
 
+.ftco-section a:hover {
+  color: #c4e0fa; }
+
 .media-custom {
   background: #fff; }
   .media-custom .media-body .name {
