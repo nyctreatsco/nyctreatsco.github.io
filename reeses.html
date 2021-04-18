@@ -51,6 +51,15 @@
       font-family: VintageRumble;
       src: url(fonts/VintageRumble.otf);
     }
+    #onhover {
+      display: none;
+    }
+    #surround:hover span[id="initial"] {
+      display: none;
+    }
+    #surround:hover span[id="onhover"] {
+      display: block;
+    }
     </style>
 
   </head>
@@ -105,7 +114,11 @@
       <div class="container">
         <div class="row">
           <div class="block-3 d-md-flex ftco-animate" data-scrollax-parent="true">
-            <a class="image" style="background-image: url('images/reesespiecescookie.png'); " data-scrollax=" properties: { translateY: '-20%'}"></a>
+            <!--<a class="image" style="background-image: url('images/reesespiecescookie.png'); " data-scrollax=" properties: { translateY: '-20%'}"></a>-->
+            <span id="surround">
+              <span id="initial"><img width="500px" data-scrollax=" properties: { translateY: '-20%'}" src="/images/reesespiecescookie.png"/></span>
+              <span id="onhover"><img width="480px" data-scrollax=" properties: { translateY: '-20%'}" src="/images/rp.png"/></span>
+            </span>
             <div class="text">
               <center><h1 class="mb-4" style="font-size: 2.7rem; color: #fd754c; font-family: VintageRumble">White Chocolate Reese's Pieces</h1></center>
               <p style="size: 15px;"><b>Reese's Pieces and white chocolate, a match made in heaven.</b> White chocolate cookie stuffed with Reese's Pieces, white chocolate chips, and peanut butter chips. Topped with a dollop of whipped vanilla frosting and Reese's Pieces.</p>
