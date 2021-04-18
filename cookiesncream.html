@@ -51,6 +51,22 @@
       font-family: VintageRumble;
       src: url(fonts/VintageRumble.otf);
     }
+    .card {
+        width: 130px;
+        height: 195px;
+        position: relative;
+        display: inline-block;
+    }
+    .card .img-top {
+        display: none;
+        position: absolute;
+        top: 0;
+        left: 0;
+        z-index: 99;
+    }
+    .card:hover .img-top {
+        display: inline;
+    }
     </style>
 
   </head>
@@ -105,7 +121,10 @@
       <div class="container">
         <div class="row">
           <div class="block-3 d-md-flex ftco-animate" data-scrollax-parent="true">
-            <a class="image" style="background-image: url('images/cookiescookie.png');" data-scrollax=" properties: { translateY: '-20%'}"></a>
+            <div class="card">
+            <a class="image img-top" style="background-image: url('images/cookiescookie.png');" data-scrollax=" properties: { translateY: '-20%'}"></a>
+            <a class="image" style="background-image: url('images/cnc.png');" data-scrollax=" properties: { translateY: '-20%'}"></a>
+            </div>
             <div class="text">
               <center><h1 class="mb-4" style="size: 50px; color: #0067b1; font-family: VintageRumble">Cookies n' Cream</h1></center>
               <p style="size: 15px;"><b>This is it Oreo lovers!</b> White chocolate cookie stuffed with Hershey's Cookies 'n' Creme chocolate, Oreo cookies, and white chocolate chips. Topped with a dollop of whipped vanilla frosting and Hershey's Cookies 'n' Creme chocolate.</p>
