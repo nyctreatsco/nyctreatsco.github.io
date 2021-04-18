@@ -51,6 +51,15 @@
       font-family: VintageRumble;
       src: url(fonts/VintageRumble.otf);
     }
+    #onhover {
+      display: none;
+    }
+    #surround:hover span[id="initial"] {
+      display: none;
+    }
+    #surround:hover span[id="onhover"] {
+      display: block;
+    }
     </style>
 
   </head>
@@ -105,7 +114,11 @@
       <div class="container">
         <div class="row">
           <div class="block-3 d-md-flex ftco-animate" data-scrollax-parent="true">
-            <a class="image" style="background-image: url('images/frostedcookie.png'); " data-scrollax=" properties: { translateY: '-20%'}"></a>
+            <!--<a class="image" style="background-image: url('images/frostedcookie.png'); " data-scrollax=" properties: { translateY: '-20%'}"></a>-->
+            <span id="surround">
+              <span id="initial"><img width="500px" data-scrollax=" properties: { translateY: '-20%'}" src="/images/frostedcookie.png"/></span>
+              <span id="onhover"><img width="480px" data-scrollax=" properties: { translateY: '-20%'}" src="/images/fc.png"/></span>
+            </span>
             <div class="text">
               <center><h1 class="mb-4" style="size: 50px; color: #ff76b1; font-family: VintageRumble">Frosted Animal Cookie</h1></center>
               <p style="size: 15px;"><b>Off to the circus!</b> Sugar cookie stuffed with circus animal cookies, white chocolate chips, and rainbow sprinkles. Topped with a dollop of whipped vanilla frosting and a circus animal cookie.</p>
