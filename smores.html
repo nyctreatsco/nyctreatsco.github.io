@@ -51,6 +51,15 @@
       font-family: VintageRumble;
       src: url(fonts/VintageRumble.otf);
     }
+    #onhover {
+      display: none;
+    }
+    #surround:hover span[id="initial"] {
+      display: none;
+    }
+    #surround:hover span[id="onhover"] {
+      display: block;
+    }
     </style>
 
   </head>
@@ -105,7 +114,11 @@
       <div class="container">
         <div class="row">
           <div class="block-3 d-md-flex ftco-animate" data-scrollax-parent="true">
-            <a class="image" style="background-image: url('images/smorescookie.png');" data-scrollax=" properties: { translateY: '-20%'}"></a>
+            <!--<a class="image" style="background-image: url('images/smorescookie.png');" data-scrollax=" properties: { translateY: '-20%'}"></a>-->
+            <span id="surround">
+              <span id="initial"><img width="500px" data-scrollax=" properties: { translateY: '-20%'}" src="/images/smorescookie.png"/></span>
+              <span id="onhover"><img width="480px" data-scrollax=" properties: { translateY: '-20%'}" src="/images/smores.png"/></span>
+            </span>
             <div class="text">
               <center><h1 class="mb-4" style="size: 50px; color: #774b2e; font-family: VintageRumble">S'mores</h1></center>
               <p style="size: 15px;"><b>See you by the campfire!</b> Milk chocolate chip cookie stuffed with graham crackers, mini marshmallows, and milk chocolate chips. Topped with a dollop of whipped vanilla frosting and Hershey's milk chocolate.</p>
