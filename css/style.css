@@ -7784,7 +7784,7 @@ h1, h2, h3, h4, h5,
     right: 0;
     content: ''; }
   .services .icon.color-1 {
-    background: #fce7f1; }
+  /*background: #fce7f1;*/ }
     .services .icon.color-1 span {
       color: #5a7c9e; }
     .services .icon.color-1:before {
@@ -7792,16 +7792,16 @@ h1, h2, h3, h4, h5,
       background-image: url("/images/pink-cookie.png");
       width: 0;
       height: 0;
-      border-style: solid;
-      border-width: 0 45px 20px 45px;
-      border-color: transparent transparent #fce7f1 transparent; }
+      /*border-style: solid;*/
+      /*border-width: 0 45px 20px 45px;
+    border-color: transparent transparent #fce7f1 transparent;*/ }
     .services .icon.color-1:after {
       /*bottom: -20px;*/
       width: 0;
       height: 0;
-      border-style: solid;
+      /*border-style: solid;
       border-width: 20px 45px 0 45px;
-      border-color: #fce7f1 transparent transparent transparent; }
+    border-color: #fce7f1 transparent transparent transparent;*/ }
   .services .icon.color-2 {
     background: #fdf2ea; }
     .services .icon.color-2 span {
