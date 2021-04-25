@@ -7775,8 +7775,8 @@ h1, h2, h3, h4, h5,
         opacity: 1; }
 
 .services .icon {
-  width: 90px;
-  height: 70px;
+  /*width: 90px;
+  height: 70px;*/
   position: relative; }
   .services .icon:before, .services .icon:after {
     position: absolute;
