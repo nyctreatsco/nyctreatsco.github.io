@@ -7802,59 +7802,59 @@ h1, h2, h3, h4, h5,
       border-width: 20px 45px 0 45px;
     border-color: #fce7f1 transparent transparent transparent;*/ }
   .services .icon.color-2 {
-    background: #fdf2ea; }
+  /*background: #fdf2ea;*/ }
     .services .icon.color-2 span {
       color: #efac78; }
     .services .icon.color-2:before {
-      top: -20px;
+      /*top: -20px;
       width: 0;
       height: 0;
       border-style: solid;
       border-width: 0 45px 20px 45px;
-      border-color: transparent transparent #fdf2ea transparent; }
+    border-color: transparent transparent #fdf2ea transparent;*/ }
     .services .icon.color-2:after {
-      bottom: -20px;
+      /*bottom: -20px;
       width: 0;
       height: 0;
       border-style: solid;
       border-width: 20px 45px 0 45px;
-      border-color: #fdf2ea transparent transparent transparent; }
+    border-color: #fdf2ea transparent transparent transparent;*/ }
   .services .icon.color-3 {
-    background: #def4fb; }
+  /*background: #def4fb;*/ }
     .services .icon.color-3 span {
-      color: #29bae4; }
+    /*color: #29bae4;*/ }
     .services .icon.color-3:before {
-      top: -20px;
+      /*top: -20px;
       width: 0;
       height: 0;
       border-style: solid;
       border-width: 0 45px 20px 45px;
-      border-color: transparent transparent #def4fb transparent; }
+    border-color: transparent transparent #def4fb transparent;*/ }
     .services .icon.color-3:after {
-      bottom: -20px;
+      /*bottom: -20px;
       width: 0;
       height: 0;
       border-style: solid;
       border-width: 20px 45px 0 45px;
-      border-color: #def4fb transparent transparent transparent; }
+    border-color: #def4fb transparent transparent transparent;*/ }
   .services .icon.color-4 {
-    background: #ebfdf4; }
+  /*background: #ebfdf4;*/ }
     .services .icon.color-4 span {
-      color: #79efb4; }
+    /*color: #79efb4;*/ }
     .services .icon.color-4:before {
-      top: -20px;
+      /*top: -20px;
       width: 0;
       height: 0;
       border-style: solid;
       border-width: 0 45px 20px 45px;
-      border-color: transparent transparent #ebfdf4 transparent; }
+    border-color: transparent transparent #ebfdf4 transparent;*/ }
     .services .icon.color-4:after {
-      bottom: -20px;
+      /*bottom: -20px;
       width: 0;
       height: 0;
       border-style: solid;
       border-width: 20px 45px 0 45px;
-      border-color: #ebfdf4 transparent transparent transparent; }
+    border-color: #ebfdf4 transparent transparent transparent;*/ }
 
 .services .media-body h3 {
   font-size: 20px; }
