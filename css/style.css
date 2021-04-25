@@ -2647,6 +2647,29 @@ input[type="button"].btn-block {
     color: #6c757d;
     background-color: transparent; }
 
+  .dropdown-item-story {
+    display: block;
+    width: 100%;
+    padding: 0.25rem 1.5rem;
+    clear: both;
+    font-weight: 400;
+    color: ##5a7c9e;
+    text-align: inherit;
+    white-space: nowrap;
+    background-color: transparent;
+    border: 0; }
+    .dropdown-item-story:hover, .dropdown-item-story:focus {
+      color: #16181b;
+      text-decoration: none;
+      background-color: #f8f9fa; }
+    .dropdown-item-story.active, .dropdown-item-story:active {
+      color: #fff;
+      text-decoration: none;
+      background-color: #78d5ef; }
+    .dropdown-item-story.disabled, .dropdown-item-story:disabled {
+      color: #6c757d;
+      background-color: transparent; }
+
 .dropdown-menu.show {
   display: block; }
 
