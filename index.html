@@ -116,6 +116,35 @@
       transform: translateY(0);
     }
 
+    img.responsive
+    {
+    	position: absolute;
+    	max-width: 80%;
+    	top: 10%;
+    	left: 10%;
+    	border-radius: 3px;
+    	box-shadow: 0 3px 6px rgba(0,0,0,0.9);
+    }
+
+    img.responsive:empty
+    {
+    	top: 50%;
+    	left: 50%;
+    	-webkit-transform: translate(-50%, -50%);
+    	-moz-transform: translate(-50%, -50%);
+    	-ms-transform: translate(-50%, -50%);
+    	-o-transform: translate(-50%, -50%);
+    	transform: translate(-50%, -50%);
+    }
+
+    @media screen and (orientation: portrait) {
+      img.responsive { max-width: 90%; }
+    }
+
+    @media screen and (orientation: landscape) {
+      img.responsive { max-height: 90%; }
+    }
+
     /* Bob */
     @-webkit-keyframes hvr-bob {
       0% {
@@ -3773,7 +3802,7 @@
       <div style="padding-left: 0px" class="row">
         <div class="col-md-6 col-lg-2 d-flex align-self-stretch ftco-animate">
           <div class="media block-6 services d-block text-center">
-            <div class="d-flex justify-content-center hvr-bounce-out"><div class="icon color-3 d-flex justify-content-center mb-3"><span><img width="160px" src="/images/800pxsmores.png"/></span></div></div>
+            <div class="d-flex justify-content-center hvr-bounce-out"><div class="icon color-3 d-flex justify-content-center mb-3"><span><img class="responsive" width="160px" src="/images/800pxsmores.png"/></span></div></div>
             <div class="media-body p-2 mt-3">
               <!--<h3 style="size: 50px; color: #ff76b1;" class="heading">S'mores</h3>-->
             </div>
