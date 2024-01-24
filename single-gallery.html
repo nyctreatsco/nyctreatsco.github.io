@@ -29,6 +29,23 @@
     <link rel="shortcut icon" href="favicon.png" type="image/x-icon">
     <link rel="icon" href="favicon.png" type="image/x-icon">
 
+    <link rel="preconnect" href="https://fonts.googleapis.com"> 
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300&display=swap" rel="stylesheet">
+    <style>
+    div.header_text {
+        font-family: "metropolis-semibold", sans-serif;
+        font-size: 13px;
+        text-transform: uppercase;
+        letter-spacing: 2px;
+        color: #FFFFFF;
+    }
+    div.blog_text {
+        font-family: "metropolis-semibold", sans-serif;
+        font-size: 14px;
+        color: #FFFFFF;
+    }
+    </style>
 </head>
 
 <body id="top">
@@ -61,7 +78,7 @@
                     </li>
                 </ul> <!-- end header__social -->
 
-                <a class="header__search-trigger" href="#0"></a>
+                <!--<!--<a class="header__search-trigger" href="#0"></a>
 
                 <div class="header__search">
 
@@ -75,7 +92,7 @@
         
                     <a href="#0" title="Close Search" class="header__overlay-close">Close</a>
 
-                </div>  <!-- end header__search -->
+                </div>-->-->  <!-- end header__search -->
 
 
                 <a class="header__toggle-menu" href="#0" title="Menu"><span>Menu</span></a>
@@ -85,19 +102,17 @@
                     <h2 class="header__nav-heading h6">Site Navigation</h2>
 
                     <ul class="header__nav">
-                        <li><a href="index.html" title="">Home</a></li>
+                        <li class="current"><a href="/index" title=""><div class="header_text">HOME</div></a></li>
+                        <li><a href="/about" title=""><div class="header_text">ABOUT</div></a></li>
                         <li class="has-children">
-                            <a href="#0" title="">Categories</a>
+                            <a href="#0" title=""><div class="header_text">BLOG</div></a>
                             <ul class="sub-menu">
-                            <li><a href="category.html">Lifestyle</a></li>
-                            <li><a href="category.html">Health</a></li>
-                            <li><a href="category.html">Family</a></li>
-                            <li><a href="category.html">Management</a></li>
-                            <li><a href="category.html">Travel</a></li>
-                            <li><a href="category.html">Work</a></li>
+                            <li><a href="/desserts"><div class="blog_text">Desserts</div></a></li>
+                            <li><a href="category.html"><div class="blog_text">Restaurants</div></a></li>
+                            <li><a href="category.html"><div class="blog_text">Products</div></a></li>
                             </ul>
                         </li>
-                        <li class="has-children current">
+                        <!--<li class="has-children">
                             <a href="#0" title="">Blog</a>
                             <ul class="sub-menu">
                             <li><a href="single-video.html">Video Post</a></li>
@@ -105,15 +120,10 @@
                             <li><a href="single-gallery.html">Gallery Post</a></li>
                             <li><a href="single-standard.html">Standard Post</a></li>
                             </ul>
-                        </li>
-                        <li><a href="style-guide.html" title="">Styles</a></li>
-                        <li><a href="about.html" title="">About</a></li>
-                        <li><a href="contact.html" title="">Contact</a></li>
+                        </li>-->
+                        <!--<li><a href="style-guide.html" title="">Styles</a></li>-->
+                        <li><a href="/contact" title=""><div class="header_text">CONTACT</div></a></li>
                     </ul> <!-- end header__nav -->
-
-                    <a href="#0" title="Close Menu" class="header__overlay-close close-mobile-menu">Close</a>
-
-                </nav> <!-- end header__nav-wrap -->
 
             </div> <!-- header-content -->
         </header> <!-- header -->
